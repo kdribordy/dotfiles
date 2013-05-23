@@ -40,3 +40,6 @@ nnoremap <C-l> <C-w>l
 "Clean
 set nobackup
 set noswapfile
+
+"Colorscheme!
+colorscheme herald
