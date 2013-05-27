@@ -2,7 +2,7 @@
 set nocompatible
 
 "Because escape is far
-inoremap jk <esc>:w<return>l
+inoremap jk <esc>:w<return>
 
 "Because I like to know where I'm at
 set number
