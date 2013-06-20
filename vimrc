@@ -1,8 +1,9 @@
 "I forget
 set nocompatible
+filetype off
 
 "Because escape is far
-inoremap jk <esc>:w<return>
+inoremap jk <esc>:w<return>l
 
 "Because I like to know where I'm at
 set number
@@ -43,3 +44,11 @@ set noswapfile
 
 "Colorscheme!
 colorscheme herald
+
+"Vundle!
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+Bundle 'gmarik/vundle'
+
+"Bundles
+Bundle 'kien/ctrlp.vim'
